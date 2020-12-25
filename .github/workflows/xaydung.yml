@@ -8,7 +8,7 @@ env:
   ROM_URL: https://gensho.ftp.acc.umu.se/mirror/lineageos/full/zangyapro/20201222/lineage-16.0-20201222-nightly-zangyapro-signed.zip
   ROM_NAME: Generic
   BUILD_AB: true
-  BUILD_Aonly: true
+  BUILD_AONLY: true
   ROM_AONLY: ROM_A0966644265.7z
   ROM_AB: ROM_AB0966644265.7z
 
@@ -48,11 +48,11 @@ jobs:
          if: env.BUILD_AONLY == 'true'
          run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
        
-       - name: 7z Aonly GSI
+       - name: 7z AONLY GSI
          if: env.BUILD_AONLY == 'true'
          run: 7za a -t7z -r $ROM_AONLY ErfanGSIs/output/*
        
-       - name: Upload Aonly
+       - name: Upload AONLY
          if: env.BUILD_AONLY == 'true'
          run: |
               curl -sL https://git.io/file-transfer | sh
