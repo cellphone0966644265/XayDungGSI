@@ -5,8 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://gensho.ftp.acc.umu.se/mirror/lineageos/full/zangyapro/20201222/lineage-16.0-20201222-nightly-zangyapro-signed.zip
-  ROM_NAME: Generic
+  ROM_URL: https://ava2.androidfilehost.com/dl/CXH33AydtY00Vbhgx3UHzQ/1608966079/5862345805528061604/J320GXXS0AQL1_J320GOLB0AQL1_XXV.zip?
   BUILD_AB: true
   BUILD_Aonly: true
   ROM_AONLY: ROM_A.7z
