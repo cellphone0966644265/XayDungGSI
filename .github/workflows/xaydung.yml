@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://gensho.ftp.acc.umu.se/mirror/lineageos/full/zangyapro/20201222/lineage-16.0-20201222-nightly-zangyapro-signed.zip
   ROM_NAME: Generic
   BUILD_AB: true
-  BUILD_Aonly: false
-  ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  BUILD_Aonly: true
+  ROM_AONLY: ROM_Vsmart_active_1_A.7z
+  ROM_AB: ROM_Vsmart_active_1_AB.7z
 
 jobs:
   build:
