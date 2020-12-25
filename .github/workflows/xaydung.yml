@@ -8,8 +8,8 @@ env:
   ROM_URL: https://gensho.ftp.acc.umu.se/mirror/lineageos/full/zangyapro/20201222/lineage-16.0-20201222-nightly-zangyapro-signed.zip
   BUILD_AB: true
   BUILD_Aonly: true
-  ROM_AONLY: Vsmart_Active_1_0966644265_ROM_A.7z
-  ROM_AB: Vsmart_Active_1_0966644265_ROM_AB.7z
+  ROM_AONLY: Vsmart_Active_1_A.7z
+  ROM_AB: Vsmart_Active_1_AB.7z
 
 jobs:
   build:
